@@ -19,9 +19,8 @@ def directors_totals(nds)
   while counter < nds.length do
     result[nds[counter]]
     counter += 1
-  
-  return result
   end
+  return result
 end
 
 directors_totals(directors_database)
