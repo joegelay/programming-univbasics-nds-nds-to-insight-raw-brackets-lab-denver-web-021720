@@ -20,6 +20,10 @@ def directors_totals(nds)
     result = {
   }
   
+  counter = 0 
+  while counter < directors_database.length do
+    result << directors_database[counter]
+  
   return result
   
   
