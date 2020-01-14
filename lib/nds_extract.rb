@@ -15,11 +15,11 @@ def directors_totals(nds)
   
   result = {}
   
-  counter = 0 
-  while counter < nds.length do
-    director = nds[counter][:name]
+  director_counter = 0 
+  while director_counter < nds.length do
+    director = nds[director_counter][:name]
     result[director] = 0
-    counter += 1
+    director_counter += 1
   end
  puts result
 end
