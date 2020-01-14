@@ -24,7 +24,6 @@ def directors_totals(nds)
     result[director] = 0
     
     while movie_counter < nds[director_counter][:movies].length do
-      
       result[director] += 5
       movie_counter += 1 
     end
