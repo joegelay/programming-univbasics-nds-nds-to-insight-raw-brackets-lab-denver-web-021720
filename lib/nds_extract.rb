@@ -15,6 +15,7 @@ def directors_totals(nds)
   
   result = {}
   
+  # first cycle through the directors
   director_counter = 0
   while director_counter < nds.length do
     director = nds[director_counter][:name]
