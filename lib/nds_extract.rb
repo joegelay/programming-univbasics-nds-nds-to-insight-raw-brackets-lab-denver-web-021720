@@ -17,8 +17,7 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   
-    result = {
-  }
+  result = {}
   
   counter = 0 
   while counter < nds.length do
