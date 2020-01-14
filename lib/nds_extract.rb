@@ -36,7 +36,7 @@ def directors_totals(nds)
     director_counter += 1
   end
   
- puts result
+ return result
 end
 
 directors_totals(directors_database)
