@@ -25,6 +25,6 @@ def directors_totals(nds)
     result << directors_database[counter]
   
   return result
-  
+end
   
 end
