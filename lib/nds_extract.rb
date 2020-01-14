@@ -13,11 +13,11 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   
-  result = {}
+  result = {"Testing"}
   
   counter = 0 
   while counter < nds.length do
-    result["what"]
+    puts
     counter += 1
   end
   return result
