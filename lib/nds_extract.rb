@@ -20,7 +20,7 @@ def directors_totals(nds)
     result[nds[counter][:name]] = 0
     counter += 1
   end
- result
+ puts result
 end
 
 directors_totals(directors_database)
