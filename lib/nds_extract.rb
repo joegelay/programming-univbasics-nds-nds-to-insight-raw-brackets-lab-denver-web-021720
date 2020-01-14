@@ -25,7 +25,7 @@ def directors_totals(nds)
     # before moving on to the next director, we need to sum their movie totals, so we cycle through each of their movies...
     movie_counter = 0
     while movie_counter < nds[director_counter][:movies].length do
-      # adding the gross of each movie to the value of that director in our result hash
+      # adding the gross of each movie to the value of that director in our result hash...
       result[director] += nds[director_counter][:movies][movie_counter][:worldwide_gross]
       movie_counter += 1 
     end
