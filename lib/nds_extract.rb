@@ -32,7 +32,7 @@ def directors_totals(nds)
       movie_counter += 1 
     end
     
-    # and finally, we can move on to the next director...
+    # and finally, we move on to the next director and repeat...
     director_counter += 1
   end
   
