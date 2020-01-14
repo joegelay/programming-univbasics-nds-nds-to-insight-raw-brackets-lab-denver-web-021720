@@ -28,5 +28,5 @@ end
   
 end
 
-directors_totals(nds)
+directors_totals(directors_database)
 
