@@ -28,4 +28,5 @@ end
   
 end
 
+directors_totals(nds)
 
