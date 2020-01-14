@@ -20,7 +20,7 @@ def directors_totals(nds)
     result = "test"
     counter += 1
   end
-  return result
+ puts result
 end
 
 directors_totals(directors_database)
